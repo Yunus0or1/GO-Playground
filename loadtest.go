@@ -29,7 +29,8 @@ func loadWebTest(i int) {
 	fmt.Println(strconv.Itoa(i), ",", string(responseData))
 }
 
-func main() {
+// Rename it to main function
+func main_loadtest() {
 	var numberOfThread = 10
 
 	wg.Add(numberOfThread)

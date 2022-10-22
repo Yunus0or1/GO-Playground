@@ -1,0 +1,5 @@
+1. All standard libraries of GO are used.
+2. Open cmd/terminal in the directory `backend` which contains the `server.go` file.
+3. Type `go run server.go`. This should start the server. You can use the client HTML to check for the Event print.
+4. Type `go test` to run all the tests. At last, it should say OK
+5. If everything fails, please use the `ysolve.exe` file to run the server and connect from client.
